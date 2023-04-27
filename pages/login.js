@@ -112,8 +112,8 @@ function Login() {
               )}
               <p className="uppercase">
                 Login securely{" "}
-                <Link href="#">
-                  <a className="text-primary">Here</a>
+                <Link href="#" className="text-primary">
+                  Here
                 </Link>
               </p>
             </div>

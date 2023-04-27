@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --bgColor: #f9fafc;
   --primary: #4264eb;
@@ -71,7 +72,7 @@ html{
   width: 100%;
 }
 
-/* input[type='radio']:after {
+ input[type='radio']:after {
   background-color: #fff;
   border: 1px solid;
 }
@@ -81,9 +82,9 @@ input[type='radio']:checked:after {
   border: 1px solid #4264eb;
   color: #4264eb;
 
-} */
+}
 
-input[type='radio']:after {
+ input[type='radio']:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
@@ -95,9 +96,9 @@ input[type='radio']:after {
   display: inline-block;
   border: 2px solid #d1d3d1;
   padding: 5px;
-}
+} 
 
-/* input[type='radio']:before {
+ input[type='radio']:before {
   border-radius: 15px;
   top: -5px;
   left: -1px;
@@ -106,9 +107,9 @@ input[type='radio']:after {
   content: '';
   border: 2px solid #d1d3d1;
   padding: 10px;
-} */
+} 
 
-input[type='radio']:checked:after {
+ input[type='radio']:checked:after {
   background-color: #4264eb;
   border: 2px solid #4264eb;
-}
+} 

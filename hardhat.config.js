@@ -13,7 +13,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-const privateKey = "01234567890123456789";
+const privateKey = "d57c4eeb4e2c0679b4af89a2c51d5da92820c225146b50e10a3d5b13716e7b8f";
 module.exports = {
   solidity: "0.8.4",
   defaultNetwork: "hardhat",

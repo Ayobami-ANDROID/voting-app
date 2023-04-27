@@ -12,10 +12,10 @@ export default function Home() {
       <main className="p-10">
         Dummy Voting dApp Page <br />
         {routes.map((route, i) => (
-          <Link key={i} href={route.path}><a className="block text-primary">{route.name}</a></Link>
+          <Link key={i} href={route.path} className="block text-primary">{route.name}</Link>
         ))}
-        <Link href="/404"><a className="text-primary block">404 page</a></Link>
-        <Link href="/login"><a className="text-primary block">Login page</a></Link>
+        <Link href="/404" className="text-primary block">404 page</Link>
+        <Link href="/login" className="text-primary block">Login page</Link>
       </main>
     </>
   );
